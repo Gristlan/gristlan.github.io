@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Gristlan/ideal-happiness
+  repo: Gristlan/gristlan.github.io
   branch: master
 
 site_url: https://gristlan.github.io/
