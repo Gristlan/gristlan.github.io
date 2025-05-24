@@ -68,9 +68,9 @@ jobs:
           working-directory: ${{ env.BUILD_PATH }}
       - name: Build TinaCMS
         env:
-           KV_REST_API_URL="https://picked-tapir-33395.upstash.io"
-           KV_REST_API_TOKEN=="AYJzAAIjcDFmMjk3NDc5ZDkwYWY0ZTRiYWJjZTdmNjYzOTAwMzkwYXAxMA"
-        run: yarn build
+           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        run: npx tinacms build
             # This assumes that your "build" script in your
             # package.json is "tinacms build"
       - name: Build with Astro
