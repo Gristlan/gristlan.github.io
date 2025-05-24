@@ -1,4 +1,6 @@
 import { defineCollection, z } from "astro:content";
+import { docsLoader } from '@astrojs/starlight/loaders';
+import { docsSchema } from '@astrojs/starlight/schema';
 import client from "../tina/__generated__/client";
 
 const blog = defineCollection({
@@ -61,4 +63,6 @@ const page = defineCollection({
     body: z.any(),
   }),
 })
-export const collections = { blog, page };
+export const collections = { blog, page, docs: defineCollection({
+  loader: docsLoader(), schema: docsSchema() }),
+};
