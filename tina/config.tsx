@@ -37,3 +37,11 @@ const config = defineConfig({
 });
 
 export default config;
+export default defineConfig({
+  token: '6e9c4a782a0f06f12c58aa6d07646a2cfeb62c60' // generated on app.tina.io
+  clientId: '1869defd-5821-45e2-8a0a-0eb624778e91', // generated on app.tina.io
+  branch,
+  schema: {
+    // ...
+  },
+})
