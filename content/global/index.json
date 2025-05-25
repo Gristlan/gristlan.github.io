@@ -1,0 +1,40 @@
+{
+  "header": {
+    "icon": {
+      "name": "BiSolidGame",
+      "color": "orange",
+      "style": "float"
+    },
+    "name": "Universal Joy",
+    "color": "primary",
+    "nav": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/about",
+        "label": "About"
+      },
+      {
+        "href": "/posts",
+        "label": "Blog"
+      }
+    ]
+  },
+  "footer": {
+    "social": [
+      {
+        "icon": {
+          "name": "FaGithub"
+        },
+        "url": "https://github.com/Gristlan"
+      }
+    ]
+  },
+  "theme": {
+    "color": "orange",
+    "font": "nunito",
+    "darkMode": "dark"
+  }
+}
