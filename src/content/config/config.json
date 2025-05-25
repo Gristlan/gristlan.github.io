@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Astro Blog + Tina",
+    "description": "Welcome to my website!",
+    "siteOwner": "Your name here"
+  },
+  "nav": [
+    {
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "title": "Blog",
+      "link": "/blog"
+    },
+    {
+      "title": "About",
+      "link": "/about"
+    }
+  ],
+  "contactLinks": [
+    {
+      "title": "BlueSky",
+      "link": "https://pierceo.bsky.social",
+      "icon": "TbBrandBluesky"
+    },
+    {
+      "title": "GitHub",
+      "link": "https://github.com/Gristlan",
+      "icon": "TbBrandGithub"
+    }
+  ]
+}
