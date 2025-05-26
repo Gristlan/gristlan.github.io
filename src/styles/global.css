@@ -172,3 +172,12 @@ hr {
 .social-links a:hover {
 	color: rgb(var(--gray-dark));
 }
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
