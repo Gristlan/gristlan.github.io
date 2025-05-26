@@ -11,14 +11,7 @@ const branch =
   "main";
 
 export default defineConfig({
-  // Get this from tina.io
-  clientId: process.env.TINA_PUBLIC_CLIENT_ID,
-  
-  // Get this from tina.io
-  token: process.env.TINA_TOKEN,
-  
-  branch,
-  
+
   build: {
     outputFolder: "admin",
     publicFolder: "public",
@@ -30,6 +23,16 @@ export default defineConfig({
       publicFolder: "public",
     },
   },
+  
+    
+  // Get this from tina.io
+  token: process.env.TINA_TOKEN,
+  
+    // Get this from tina.io
+  clientId: process.env.TINA_PUBLIC_CLIENT_ID,
+  
+  branch,
+  
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
