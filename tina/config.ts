@@ -11,17 +11,19 @@ const branch =
   "main";
 
 export default defineConfig({
-  branch,
-
   // Get this from tina.io
   clientId: process.env.TINA_PUBLIC_CLIENT_ID,
+  
   // Get this from tina.io
   token: process.env.TINA_TOKEN,
-
+  
+  branch,
+  
   build: {
     outputFolder: "admin",
     publicFolder: "public",
   },
+  
   media: {
     tina: {
       mediaRoot: "",
