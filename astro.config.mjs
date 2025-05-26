@@ -7,6 +7,6 @@ import tinaDirective from "./astro-tina-directive/register"
 
 // https://astro.build/config
 export default defineConfig({
-	site: https://gristlan.github.io,
+	site: 'https://gristlan.github.io',
 	integrations: [mdx(), sitemap(), react(), tinaDirective()],
 });

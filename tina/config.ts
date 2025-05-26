@@ -11,7 +11,6 @@ const branch =
   "main";
 
 export default defineConfig({
-
   build: {
     outputFolder: "admin",
     publicFolder: "public",
